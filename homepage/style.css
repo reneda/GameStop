@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Niconne&family=Recursive:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Recursive, sans-serif;  
+}
+
+body
+{
+	
+	background: black;
+	color: white;
+	font-family: Recursive;
+	
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+.header
+{
+	margin-top: 20%;
+}
+.mr:hover
+{
+  cursor: pointer;
+  animation: pop 0.5s linear 1;
+}
+img:hover
+{
+  cursor: pointer;
+  animation: pop 0.5s linear 1;
+}
+.rpsls:hover
+{
+	cursor: pointer;
+	animation: pop 0.5s linear 1;
+	color: white;
+}
+@keyframes pop{
+  50%  {transform: scale(1.1);}
+}
+@keyframes pulse{
+  25%  {transform: scale(0.9);}
+  75%  {transform: scale(1.1);}
+}
+.welcome
+{
+	margin-left: 5%;
+	position: absolute;
+	
+	font-size: 30px;
+	font-style: bold;
+	text-align: center;
+
+}
+
+#particles-js
+{
+	background-color: black;
+	height: 100vh;
+}
+
+.rpsls
+{
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 25px;
+	background-color: #ff00d4;
+	border-radius: 5%;
+	font-weight: bolder;
+	padding: 5px;
+
+	
+}
+.mr
+{
+	display: inline-block;
+	background-color: #ff00d4;
+	border-radius: 5%;
+	font-weight: bolder;
+	padding: 5px;
+}
