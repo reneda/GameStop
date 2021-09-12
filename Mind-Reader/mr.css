@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Niconne&family=Recursive:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Recursive, sans-serif;  
+}
+
+body {
+    background-color: black;
+
+}
+
+header {
+    background: radial-gradient(yellow,#ff8100);
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+#pysch-girl
+{
+	width:450px;
+
+
+}
+#circle
+{
+    width:750px;
+    padding-bottom: 5%;
+    
+    
+}
+#qna
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+     font-size: 25px;
+
+}
+#q
+{
+    padding: 5%;
+}
+#yes,#no
+{
+    
+    border: 2px solid white;
+    display: inline-block;
+    padding: 2% 10% 2% 10%;
+
+}
+#no:hover
+{
+    background-color: red;
+}
+#yes:hover
+{
+    background-color: green;
+}
+@media screen and (max-width: 600px)
+{
+span
+{
+    display: flex;
+    justify-content: center;
+}
+}
