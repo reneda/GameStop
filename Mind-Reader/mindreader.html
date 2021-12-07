@@ -2,18 +2,17 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Psych-me-out</title>
 	<link rel="stylesheet" type="text/css" href="mr.css">
 </head>
 <body>
 	<header><h1>The Mind Reader</h1></header>
-	<span>
-		<img id="pysch-girl"src="mr.gif" alt="pysch-girl">
-
+	<span>hi
+		<img id="pysch-girl"src="mr.gif" class="center" alt="pysch-girl">
 	</span>
-	<div id="qna">
+	<div id="qna" onclick="test()">
 		<!--img id="circle" src="strange.gif"-->
 		<div id="q">Hi I'm Mystic Jane, the oracle of GameStop.<br>
 			I will guess whatever you are thinking of.<br><br>
@@ -21,9 +20,10 @@
 		</div>
 		<br>
 
-		<div id="yes">YES</div>
-		<div id="no">NO</div>
+		<div id="yes" onclick="decide(true)">YES</div>
+		<div id="no" onclick="decide(false)">NO</div>
     </div>
+    <script type="text/javascript" src="mr.js"></script>
     
 </body>
 </html>
