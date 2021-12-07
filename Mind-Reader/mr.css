@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    width: 100%;
     background: radial-gradient(yellow,#ff8100);
     padding: 20px;
     border: 2px solid black;
@@ -20,16 +21,8 @@ header {
 #pysch-girl
 {
 	width:450px;
-
-
 }
-#circle
-{
-    width:750px;
-    padding-bottom: 5%;
-    
-    
-}
+
 #qna
 {
     display: inline-block;
@@ -38,9 +31,9 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-  transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
      font-size: 25px;
-
+    border: solid 2px white;
 }
 #q
 {
@@ -52,7 +45,12 @@ header {
     border: 2px solid white;
     display: inline-block;
     padding: 2% 10% 2% 10%;
+    margin-bottom: 5%;
 
+}
+#no
+{
+    display: none;
 }
 #no:hover
 {
@@ -62,11 +60,16 @@ header {
 {
     background-color: green;
 }
-@media screen and (max-width: 600px)
+
+@media screen and (max-width: 700px)
 {
-span
+#pysch-girl
 {
-    display: flex;
-    justify-content: center;
+    width:100%;
+    opacity: 0.7;
+}
+#qna
+{
+    width:75%;
 }
 }
